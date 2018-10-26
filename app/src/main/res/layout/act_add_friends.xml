@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg">
+
+    <RelativeLayout
+        android:id="@+id/add_friend_notify_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="添加好友"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/input_friend_account_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:hint="输入好友账户"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/add_friend_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_new_selector"
+            android:text="添加"
+            android:textSize="20sp" />
+    </LinearLayout>
+</FrameLayout>

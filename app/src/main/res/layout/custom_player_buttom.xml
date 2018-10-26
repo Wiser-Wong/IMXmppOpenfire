@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/playAndPauseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:layout_weight="0"
+        android:background="@drawable/play" />
+
+    <TextView
+        android:id="@+id/playTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingRight="2dp"
+        android:text="00:00:00"
+        android:textColor="#ffffff"
+        android:textSize="13sp" />
+
+    <SeekBar
+        android:id="@+id/playSeekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="8"
+        android:maxHeight="10dp"
+        android:minHeight="10dp"
+        android:padding="4dp"
+        android:progressDrawable="@drawable/po_seekbar"
+        android:thumb="@mipmap/seekbar_thumb"
+        android:thumbOffset="10dp" />
+
+    <TextView
+        android:id="@+id/playVideoLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:text="00:00:00"
+        android:textColor="#ffffff"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/showAllScree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/full_screen_selector"
+        android:enabled="true"
+        android:focusable="true" />
+
+</LinearLayout>

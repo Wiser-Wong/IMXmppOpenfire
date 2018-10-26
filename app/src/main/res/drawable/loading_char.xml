@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@mipmap/chair00"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair01"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair02"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair03"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair04"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair05"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair06"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair07"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair08"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair09"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair10"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair11"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair12"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair13"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair14"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair15"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair16"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair17"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair18"
+        android:duration="40" />
+    <item
+        android:drawable="@mipmap/chair19"
+        android:duration="40" />
+
+</animation-list>
