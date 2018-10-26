@@ -15,7 +15,7 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 
 /**
- * Created by drakeet on 10/21/14.
+ * Created by wxy on 10/21/14.
  */
 public class CustomSliddingMenu extends HorizontalScrollView {
 
